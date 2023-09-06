@@ -5,7 +5,7 @@ Plugin URI: https://github.com/squarecandy/squarecandy-no-gutenberg
 GitHub Plugin URI: https://github.com/squarecandy/squarecandy-no-gutenberg
 Primary Branch: main
 Description: Completely disables the Gutenberg Block Editor
-Version: 1.1.0
+Version: 1.2.0
 Author: squarecandy
 
 Copyright 2022 Peter T. Wise D.B.A. Square Candy Design
