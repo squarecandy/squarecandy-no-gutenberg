@@ -21,6 +21,10 @@ add_filter( 'use_block_editor_for_post', '__return_false', 10 );
 // and updated for WooCommerce 8.x https://wordpress.stackexchange.com/a/418033/41488
 function squarecandy_remove_wp_block_library_css() {
 
+	if ( is_admin() ) {
+		return;
+	}
+
 	$remove_styles = array(
 		// WP Core styles
 		'wp-block-library',
