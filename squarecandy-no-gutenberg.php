@@ -88,7 +88,7 @@ function squarecandy_remove_wp_block_library_css() {
 	}
 
 }
-add_action( 'init', 'squarecandy_remove_wp_block_library_css', 100 );
+add_action( 'wp_enqueue_scripts', 'squarecandy_remove_wp_block_library_css', 999 );
 
 // remove duotone SVG markup
 // see https://github.com/WordPress/gutenberg/issues/38299#issuecomment-1223860368
