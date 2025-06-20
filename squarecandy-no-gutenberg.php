@@ -84,7 +84,7 @@ function squarecandy_remove_wp_block_library_css() {
 	);
 
 	foreach ( $remove_scripts as $remove_script ) {
-		wp_deregister_script( $remove_script );  
+		wp_deregister_script( $remove_script );
 	}
 
 }
